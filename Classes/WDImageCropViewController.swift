@@ -64,7 +64,7 @@ internal class WDImageCropViewController: UIViewController {
     private func setupNavigationBar() {
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Cancel,
                                                                 target: self, action: #selector(actionCancel))
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Use", style: .Plain,
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Done,
             target: self, action: #selector(actionUse))
     }
 
